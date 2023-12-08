@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이도환의 축구 교실</title>
+    <link rel="stylesheet" href="home.css">
+    <script src="data.json" type="text/javascript"></script>
+    <script src="home.js"></script>
+    <script src="search.js"></script>
+</head>
+
+<body>
+    <div class="header-wrap">
+        <div class="header">
+
+            <a href="index.html" class="header-name">이도환의 축구 교실 ⚽️</a>
+
+            <form class="input-box">
+                <input id="searchInput" onkeydown="handleKeyDown(event)" />
+                <button onclick="search()">🔍</button>
+            </form>
+        </div>
+    </div>
+    <div class="bg">
+        <div class="iframe-wrap">
+            <iframe src="https://sports.news.naver.com/index.nhn"></iframe>
+        </div>
+        <div>
+            <div class="sliders-wrap">
+                <div class="slider-wrap">
+                    <div class="year" id="year-0">
+
+                    </div>
+                    <div class="slider">
+                        <button id="prev-0">
+                            &#60;
+                        </button>
+                        <div class="members">
+                            <div class="member member-0-wrap" id="0_0">
+                                <img class="member-img " />
+                                <span class="member-name"></span>
+                            </div>
+                            <div class="member member-0-wrap" id="0_1">
+                                <img class="member-img " />
+                                <span class="member-name"></span>
+                            </div>
+                            <div class="member member-0-wrap" id="0_2">
+                                <img class="member-img " />
+                                <span class="member-name"></span>
+                            </div>
+                            <div class="member member-0-wrap hidden" id="0_3">
+                                <img class="member-img " />
+                                <span class="member-name"></span>
+                            </div>
+                            <div class="member member-0-wrap hidden" id="0_4">
+                                <img class="member-img " />
+                                <span class="member-name"></span>
+                            </div>
+                            <div class="member member-0-wrap hidden" id="0_5">
+                                <img class="member-img " />
+                                <span class="member-name"></span>
+                            </div>
+                        </div>
+                        <button id="next-0">
+                            &#62;
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="sliders-wrap">
+                <div class="slider-wrap">
+                    <div class="year" id="year-1">
+
+                    </div>
+                    <div class="slider">
+                        <button id="prev-1">
+                            &#60;
+                        </button>
+                        <div class="members">
+                            <div class="member member-1-wrap" id="1_0">
+                                <img class="member-img " />
+                                <span class="member-name"></span>
+                            </div>
+                            <div class="member member-1-wrap" id="1_1">
+                                <img class="member-img " />
+                                <span class="member-name"></span>
+                            </div>
+                            <div class="member member-1-wrap" id="1_2">
+                                <img class="member-img " />
+                                <span class="member-name"></span>
+                            </div>
+                            <div class="member member-1-wrap hidden" id="1_3">
+                                <img class="member-img " />
+                                <span class="member-name"></span>
+                            </div>
+                            <div class="member member-1-wrap hidden" id="1_4">
+                                <img class="member-img " />
+                                <span class="member-name"></span>
+                            </div>
+                            <div class="member member-1-wrap hidden" id="1_5">
+                                <img class="member-img " />
+                                <span class="member-name"></span>
+                            </div>
+                        </div>
+                        <button id="next-1">
+                            &#62;
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="sliders-wrap">
+                <div class="slider-wrap">
+                    <div class="year" id="year-2">
+
+                    </div>
+                    <div class="slider">
+                        <button id="prev-2">
+                            &#60;
+                        </button>
+                        <div class="members">
+                            <div class="member member-2-wrap" id="2_0">
+                                <img class="member-img " />
+                                <span class="member-name"></span>
+                            </div>
+                            <div class="member member-2-wrap" id="2_1">
+                                <img class="member-img " />
+                                <span class="member-name"></span>
+                            </div>
+                            <div class="member member-2-wrap" id="2_2">
+                                <img class="member-img " />
+                                <span class="member-name"></span>
+                            </div>
+                            <div class="member member-2-wrap hidden" id="2_3">
+                                <img class="member-img " />
+                                <span class="member-name"></span>
+                            </div>
+                            <div class="member member-2-wrap hidden" id="2_4">
+                                <img class="member-img " />
+                                <span class="member-name"></span>
+                            </div>
+                            <div class="member member-2-wrap hidden" id="2_5">
+                                <img class="member-img " />
+                                <span class="member-name"></span>
+                            </div>
+                        </div>
+                        <button id="next-2">
+                            &#62;
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="sliders-wrap">
+                <div class="slider-wrap">
+                    <div class="year" id="year-3">
+
+                    </div>
+                    <div class="slider">
+                        <button id="prev-3">
+                            &#60;
+                        </button>
+                        <div class="members">
+                            <div class="member member-3-wrap" id="3_0">
+                                <img class="member-img " />
+                                <span class="member-name"></span>
+                            </div>
+                            <div class="member member-3-wrap" id="3_1">
+                                <img class="member-img " />
+                                <span class="member-name"></span>
+                            </div>
+                            <div class="member member-3-wrap" id="3_2">
+                                <img class="member-img " />
+                                <span class="member-name"></span>
+                            </div>
+                            <div class="member member-3-wrap hidden" id="3_3">
+                                <img class="member-img " />
+                                <span class="member-name"></span>
+                            </div>
+                            <div class="member member-3-wrap hidden" id="3_4">
+                                <img class="member-img " />
+                                <span class="member-name"></span>
+                            </div>
+                            <div class="member member-3-wrap hidden" id="3_5">
+                                <img class="member-img " />
+                                <span class="member-name"></span>
+                            </div>
+                        </div>
+                        <button id="next-3">
+                            &#62;
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>

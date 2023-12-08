@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="data.json" type="text/javascript"></script>
+    <script src="detail.js"></script>
+    <title>member</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="detail.css">
+    <script src="search.js"></script>
+</head>
+
+<body>
+    <div>
+        <div class="header-wrap">
+            <div class="header">
+                <a href="index.html" class="header-name">이도환의 축구 교실 ⚽️</a>
+                <form class="input-box">
+                    <input id="searchInput" onkeydown="handleKeyDown(event)" />
+                    <button onclick="search()">🔍</button>
+                </form>
+            </div>
+        </div>
+        <div class="des-wrap">
+            <img class="des-member-img" />
+            <div class="des-member-wrap">
+                <div class="des-member-name">이름</div>
+                <div class="des-member-description">설명</div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

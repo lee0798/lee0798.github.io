@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="data.json" type="text/javascript"></script>
+    <script src="search.js"></script>
+    <script srsc="home.js"></script>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="search.css">
+</head>
+
+<body>
+    <div class="header-wrap">
+        <div class="header">
+            <a href="index.html" class="header-name">이도환의 축구 교실 ⚽️</a>
+
+            <form class="input-box">
+                <input id="searchInput" onkeydown="handleKeyDown(event)" />
+                <button onclick="search()">🔍</button>
+            </form>
+        </div>
+    </div>
+    <div class="search-wrap">
+        <div class="search-result"></div>
+        <div class="results"></div>
+    </div>
+</body>
+
+</html>

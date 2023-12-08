@@ -1,0 +1,24 @@
+.des-wrap {
+    display: flex;
+    justify-content: center;
+    margin-left: 40px;
+    margin-right: 80px;
+}
+
+.des-member-img {
+    border-radius: 20px;
+    width: 400px;
+    height: 400px;
+}
+
+.des-member-wrap {
+    margin-left: 20px;
+    padding-top: 40px;
+}
+
+.des-member-name {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.des-member-description {}

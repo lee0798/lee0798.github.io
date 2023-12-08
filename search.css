@@ -1,0 +1,41 @@
+.search-wrap {
+    margin: 10px 40px 0 40px;
+    color: gray
+}
+
+.search-result {
+    margin-bottom: 10px;
+}
+
+.search-result>span {
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+}
+
+.results {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.results>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+
+
+}
+
+.results>div>img {
+    width: 200px;
+    height: 300px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+
+.results>div>span {
+    color: black
+}
